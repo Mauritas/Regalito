@@ -24,7 +24,7 @@ body{
     border: 3px solid #3B3030;
     border-bottom: 9px solid black;
     border-right: 5px solid black;
-    background-image: url(/images/flowers-pixel.png);
+    background-image: url(images/flowers-pixel.png);
     background-size: 153px;
     background-position:0% 75%;
     background-repeat: repeat-x;
@@ -101,7 +101,7 @@ body{
     background-color: #387F39;
     border-radius: 0 0 10px 10px;
     border-top: 2px solid #387F39;
-    background-image: url(/images/grass-pixel.png);
+    background-image: url(images/grass-pixel.png);
 }
 .container-grass > button{
     font-family: "Pixelify Sans";
@@ -140,7 +140,7 @@ body{
     background-color: #B99470;
     border-radius: 0 0 10px 10px;
     border-top: 2px solid black;
-    background-image: url(/images/ground-pixel.png);
+    background-image: url(images/ground-pixel.png);
     background-size: 30px;
 }
 /* Id´s */
