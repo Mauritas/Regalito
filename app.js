@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         switch(contador){
             case 0:
                 nextBtn.disabled = true;
-                sonido = new Audio("/audios/MILO J - M.A.I final.wav")
+                sonido = new Audio("audios/MILO J - M.A.I final.wav")
                 sonido.play()
                 sonido.volume = 0.1;
                 sonido.onended = () =>{
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             case 1:
                nextBtn.disabled = true
                prevBtn.disabled = true
-                sonido = new Audio("/audios/En Privado final.wav")
+                sonido = new Audio("audios/En Privado final.wav")
                 sonido.play()
                 sonido.volume = 0.1;
                 sonido.onended =function(){
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
             case 2:
                 nextBtn.disabled = true
                 prevBtn.disabled = true
-                sonido = new Audio("/audios/El Mató a un Policía Motorizado - Diamante Roto final.wav")
+                sonido = new Audio("audios/El Mató a un Policía Motorizado - Diamante Roto final.wav")
                 sonido.play()
                 sonido.volume = 0.1;
                 sonido.onended =function(){
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             case 3:
                 nextBtn.disabled = true
                 prevBtn.disabled = true
-                sonido = new Audio("/audios/Milo j Yami Safdie - CARENCIAS DE CORDURA final.wav")
+                sonido = new Audio("audios/Milo j Yami Safdie - CARENCIAS DE CORDURA final.wav")
                 sonido.play()
                 sonido.volume = 0.1;
                 sonido.onended =function(){
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
             case 4:
                 nextBtn.disabled = true;
                 prevBtn.disabled = true;
-                sonido = new Audio("/audios/LATIN MAFIA - No digas nada final.wav")
+                sonido = new Audio("audios/LATIN MAFIA - No digas nada final.wav")
                 sonido.play()
                 sonido.volume = 0.1;
                 sonido.onended =function(){
