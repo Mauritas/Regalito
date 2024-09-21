@@ -6,7 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: "Pixelify Sans";
-    overflow:hidden;
+    overflow: scroll;
     height: 844px;
     background: linear-gradient(to bottom, #87CEEB, #B0E0E6);
 }
@@ -28,6 +28,8 @@ body{
     background-size: 153px;
     background-position:0% 75%;
     background-repeat: repeat-x;
+    position: relative;
+    top: -50px;
 }
 .main-container.inicio{
     height: 70vh;
@@ -37,6 +39,8 @@ body{
     background-repeat: no-repeat;
     background-position: 50% 50%;
     z-index: 0;
+    position: relative;
+    top: -50px;
 }
 .titulo-play{
     font-weight: 700;
